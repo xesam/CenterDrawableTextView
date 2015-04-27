@@ -1,8 +1,12 @@
 #CenterDrawableTextView
 
-A center align drawable(drawableLeft, drawableTop, drawableRight, drawableBottom) View.
+A center align drawable(drawableLeft or drawableTop or drawableRight or drawableBottom) View.
 
 include *TextView*, *Button*, *CompoundButton*, *RadioButton*
+
+##downside
+
+only support one drawableXXXX!
 
 #demo
 
