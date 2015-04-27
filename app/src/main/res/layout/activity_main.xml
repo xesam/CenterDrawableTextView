@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <dev.xesam.android.view.CenterDrawableTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:padding="20dp"
+            android:text="left" />
+
+        <dev.xesam.android.view.CenterDrawableTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:padding="20dp"
+            android:text="left" />
+
+        <dev.xesam.android.view.CenterDrawableTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="top" />
+
+        <dev.xesam.android.view.CenterDrawableTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableTop="@drawable/ic_launcher"
+            android:padding="20dp"
+            android:text="top" />
+
+        <dev.xesam.android.view.CenterDrawableTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableRight="@drawable/ic_launcher"
+            android:text="right" />
+
+        <dev.xesam.android.view.CenterDrawableTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableBottom="@drawable/ic_launcher"
+            android:text="bottom" />
+
+        <dev.xesam.android.view.CenterDrawableButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:padding="20dp"
+            android:text="left" />
+
+        <dev.xesam.android.view.CenterDrawableButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:padding="20dp"
+            android:text="left" />
+
+        <dev.xesam.android.view.CenterDrawableButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="top" />
+
+        <dev.xesam.android.view.CenterDrawableButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableRight="@drawable/ic_launcher"
+            android:text="right" />
+
+        <dev.xesam.android.view.CenterDrawableButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#e4e4e4"
+            android:drawableBottom="@drawable/ic_launcher"
+            android:text="bottom" />
+
+    </LinearLayout>
+</ScrollView>
